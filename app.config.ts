@@ -2,6 +2,9 @@ import { theme } from '~/theme';
 
 export default defineAppConfig({
 	theme,
+	globals: {
+		logo_on_dark_bg: '/logo.png',
+	},
 	ui: {
 		strategy: 'override',
 		primary: theme.primary,

@@ -61,10 +61,10 @@ const {
 			</div>
 		</div>
 
-		<div class="hidden h-full gap-4 md:flex">
+		<!-- <div class="hidden h-full gap-4 md:flex">
 			<UButton to="/contact-us" color="primary" size="xl">Let's Talk</UButton>
 			<UButton to="/portal" color="primary" variant="ghost" size="xl">Login</UButton>
-		</div>
+		</div> -->
 		<NavigationMobileMenu v-if="navigation" :navigation="navigation" />
 	</header>
 </template>

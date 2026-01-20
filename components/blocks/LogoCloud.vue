@@ -30,7 +30,7 @@ const { fileUrl } = useFiles();
 				>
 					<NuxtImg
 						v-if="(logo.directus_files_id as File)?.id"
-						class="h-12"
+						class="h-24"
 						:src="(logo.directus_files_id as File)?.id"
 						:alt="(logo.directus_files_id as File)?.description ?? ''"
 					/>

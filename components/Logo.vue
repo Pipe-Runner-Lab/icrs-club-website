@@ -14,7 +14,7 @@ const props = defineProps({
 </script>
 
 <template>
-	<NuxtImg v-if="logo" :src="logo" alt="" />
+	<NuxtImg v-if="logo" :src="logo" alt="" class="h-12" />
 	<template v-else>
 		<svg width="117" height="23" viewBox="0 0 117 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path
